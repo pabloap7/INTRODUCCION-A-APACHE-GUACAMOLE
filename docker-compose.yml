@@ -84,7 +84,6 @@ services:
    networks:
      - guacnetwork_compose
 
-  # ubuntu con SSH
   ubuntu-ssh:
    container_name: ubuntu_ssh_compose
    image: pabloarriola/ubuntu-ssh
@@ -102,8 +101,7 @@ services:
    - PASSWORD=ubuntu
    - RESOLUTION=1280x800
    ports:
-   - "5900:5900"   # <— Esto es imprescindible
-   - "6901:6901"   # opcional, si quieres noVNC en http://host:6901
+   - "5900:5900"
    networks:
    - guacnetwork_compose
    restart: always
