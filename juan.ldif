@@ -1,0 +1,12 @@
+dn: uid=juan,ou=people,dc=dominio,dc=local
+cn:: IHBlcmV6
+sn: perez
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+uid: perez
+uid: juan
+userPassword:: e3NoYX1odmZrTi9xbHAvemhYUjNjdWVycTZqZDJaN2c9
+displayName:: IHBlcmV6
+

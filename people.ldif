@@ -1,0 +1,33 @@
+dn: uid=juan,ou=people,dc=dominio,dc=local
+cn:: IHBlcmV6
+sn: perez
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+uid: perez
+uid: juan
+userPassword:: e3NoYX1odmZrTi9xbHAvemhYUjNjdWVycTZqZDJaN2c9
+displayName:: IHBlcmV6
+
+dn: uid=maria,ou=people,dc=dominio,dc=local
+objectClass: inetOrgPerson
+uid: maria
+sn: Maria
+givenName: Maria
+cn: Maria
+displayName: Maria
+userPassword:: YQ==
+
+dn: uid=pepe,ou=people,dc=dominio,dc=local
+cn: pepe
+sn: perez
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+uid: perez
+uid: pepe
+userPassword:: YQ==
+displayName: pepe
+

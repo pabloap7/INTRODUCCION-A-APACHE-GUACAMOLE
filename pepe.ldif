@@ -1,0 +1,11 @@
+dn: uid=pepe,ou=people,dc=dominio,dc=local
+cn: pepe
+sn: perez
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+uid: perez
+uid: pepe
+userPassword: a
+displayName: pepe
